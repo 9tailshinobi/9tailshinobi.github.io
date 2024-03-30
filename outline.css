@@ -18,3 +18,17 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.navbar ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration:none;
+    padding:15px;
+    display:block;
+}
+.navbar li{
+    float:left;
+}
