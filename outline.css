@@ -11,6 +11,21 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-align: center;
 }
+
+.aboutmebox {
+    position: absolute;
+    background-color: rgba(172, 106, 126, 0.61);
+    width: 600px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 70px;
+    margin: 60px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    text-align: center;
+}
+
 .navbar {
     position: absolute;
     top: 30%;
@@ -23,6 +38,8 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
+  
+    
 }
 .navbar a{
     text-decoration:none;
@@ -31,4 +48,5 @@
 }
 .navbar li{
     float:left;
+    font-size: 20px;
 }
