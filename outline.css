@@ -2,10 +2,11 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    
 }
 
 .navbar  {
-    background-color:rgb(241, 241, 241);
+    background-color:rgb(255, 255, 255);
     display:flex;
     justify-content:center;
     align-items:center;
@@ -13,14 +14,17 @@
     font-size:  20px;
     height: 60px;
     z-index:3;
-    top:0;
-    
-   
+    top:0;  
+    border-bottom: solid;
+    border-width:1px;
+    border-color:transparent;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .navbar-container {
     justify-content: space-between;
     padding: 20px;
+     
 }
 #navbar_logo {
     background-color:rgb(44, 44, 44);
@@ -33,6 +37,7 @@ ul {
     align-items: center;
     list-style: none;
     text-align:center;
+     
      
 }
 .navbar_links {
