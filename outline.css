@@ -19,17 +19,29 @@
     border-width:1px;
     border-color:transparent;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
 }
 
 .navbar-container {
     justify-content: space-between;
-    padding: 20px;
+    margin:0;
+    margin:0;
+    padding:0;
+   
+
+   
+
      
 }
 #navbar_logo {
     background-color:rgb(44, 44, 44);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-right: 100px;
+     
+     
+     
+    
     
     
 }
@@ -45,4 +57,13 @@ ul {
     color:black;
     padding: 20px;
     text-decoration: none;
+    display:flex;
+    align-items: center;
+    list-style: none;
+    text-align:center;
+     
+}
+.navbar_links:hover {
+    color: rgb(99, 99, 99);
+    transition: all 0.5s ease;
 }
