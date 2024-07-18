@@ -67,3 +67,11 @@ ul {
     color: rgb(99, 99, 99);
     transition: all 0.5s ease;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar-container {
+        display:grid;
+    }
+
+}
+    
