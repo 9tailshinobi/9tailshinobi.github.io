@@ -70,8 +70,19 @@ ul {
 
 @media only screen and (max-width: 600px) {
     .navbar-container {
-        display:grid;
+        display:flex;
+        justify-content: space-between;
     }
 
 }
+
+
+ul：active {
+    top: 100%;
+    background-color:rgb(255, 255, 255);
+    transition: all 0.5s ease;
+    z-index: 99;
+    
+}
+
     
